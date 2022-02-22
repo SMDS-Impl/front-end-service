@@ -1,11 +1,15 @@
 module.exports = {
-    content: ['./app/**/*.{ts,tsx,jsx,js}'],
+    darkMode: 'class',
+    content: [
+        './app/**/*.{js,ts,jsx,tsx}',
+        './app/components/**/*.{js,ts,jsx,tsx}',
+    ],
     theme: {
-        fontFamily: {
-            primary: ['Inter', 'sans-serif'],
+        extend: {
+            fontFamily: {
+                primary: ['Inter', 'sans-serif'],
+            },
         },
-        extend: {},
     },
-    variants: {},
-    plugins: [],
+    plugins: [require('@tailwindcss/forms')],
 }
