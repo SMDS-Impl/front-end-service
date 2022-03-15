@@ -1,7 +1,13 @@
 import { Links, LiveReload, Meta, Outlet, Scripts, useCatch } from 'remix'
 import styles from './tailwind.css'
 export function links() {
-    return [{ rel: 'stylesheet', href: styles }]
+    return [
+        { rel: 'stylesheet', href: styles },
+        {
+            rel: 'stylesheet',
+            href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css',
+        },
+    ]
 }
 
 export default function App() {
