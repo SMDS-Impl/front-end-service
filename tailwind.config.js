@@ -7,7 +7,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                primary: ['Inter', 'sans-serif'],
+                primary: ['Circular XX TT', 'sans-serif'],
             },
         },
     },
