@@ -25,3 +25,7 @@
     src: url('/fonts/CircularXXTT-Bold.ttf') format('ttf');
     font-weight: 700;
 }
+
+body {
+    font-family: 'Circular XX TT', sans-serif;
+}
